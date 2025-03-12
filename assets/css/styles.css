@@ -67,3 +67,14 @@
         opacity: 1;
     }
 }
+.table-responsive {
+    animation: zoomIn 0.8s;
+    overflow-x: auto;
+}
+table {
+    font-size: 14px;
+    transition: transform 0.3s;
+}
+th, td {
+    padding: 8px;
+}
