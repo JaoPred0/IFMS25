@@ -1,0 +1,48 @@
+<div class="container mt-3 oculto" id="calendario">
+    <div class="mt-4 mb-4">
+        <div class="card">
+            <div class="card-body" id="data-hora">
+                Carregando...
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row mt-4">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Calendário da Sala</h5>
+                    <p class="card-text">Ver todas as datas da prova, trabalho ou outros.</p>
+                    <a href="#" class="btn btn-primary w-100" onclick="mostrarDiv('calendario-da-sala')">Exibir</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Horários</h5>
+                    <p class="card-text">Olhar o horário da sala de aula.</p>
+                    <a href="#" class="btn btn-primary w-100" onclick="mostrarDiv('horario')">Exibir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3 oculto" id="calendario-da-sala">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" onclick="mostrarDiv('calendario')"">Calendário</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Calendário da Sala</li>
+        </ol>
+    </nav>
+</div>
+
+<div class="container mt-3 oculto" id="horario">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" onclick="mostrarDiv('calendario')"">Calendário</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Horários</li>
+        </ol>
+    </nav>
+</div>

@@ -1,11 +1,18 @@
 <div class="offcanvas offcanvas-start show mt-5 pt-5 animate__animated animate__fadeInLeft animate__delay-0.5s"
-    style="border-radius: 0 50px 50px 0; width: 5%;" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    style="border-radius: 0 50px 50px 0; width: 7%;" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
     id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
 
     <div class="offcanvas-body">
-        <ul class="list-unstyled fs-3">
+        <ul class="list-unstyled fs-3 d-flex flex-column align-items-center">
             <li class="mb-5">
-                <a href="#" class="d-flex align-items-center text-decoration-none text-light">
+                <a href="#home" class="d-flex align-items-center text-decoration-none text-light"
+                    onclick="mostrarDiv('home')">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li class="mb-5">
+                <a href="#calendario" class="d-flex align-items-center text-decoration-none text-light"
+                    onclick="mostrarDiv('calendario')">
                     <i class="fa-solid fa-calendar-days ms-1"></i>
                 </a>
             </li>
@@ -15,5 +22,6 @@
                 </a>
             </li>
         </ul>
-    </div>    
+    </div>
 </div>
+

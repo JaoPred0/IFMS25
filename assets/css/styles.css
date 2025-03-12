@@ -51,3 +51,19 @@
     transform: scale(1.05);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+.oculto {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
